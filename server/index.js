@@ -6,7 +6,7 @@ const app = express()
 const port = 3001
 
 app.get('/api/products', getProducts)
-app.get('api/product/:id', getProducts)
+app.get('/api/product/:id', getProducts)
 
 app.listen(port, () => {
     console.log(`Server LISTENING on port: ${port}`)
