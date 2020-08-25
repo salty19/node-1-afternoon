@@ -5,4 +5,4 @@ const getProducts = (req, res) => {
     res.status(200).send(products)
 }
 
-module.export = getProducts
+module.exports = getProducts
