@@ -6,7 +6,7 @@ const getProducts = (req, res) => {
         const items = products.filter(
             val => val.price >= parseInt(req.query.price))
             return res.status(200).send(items)
-        })
+        }
 
     res.status(200).send(products)
 }
